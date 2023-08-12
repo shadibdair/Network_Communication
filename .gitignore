@@ -1,2 +1,5 @@
 my_ping*
-traceroute*
+traceroute
+receiver
+sender
+settings.json
