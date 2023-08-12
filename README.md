@@ -62,3 +62,17 @@ The provided code is an implementation of the traceroute utility in C. Tracerout
 ### Summary:
 
 The code provides a concise yet powerful tool to trace the path from the host system to a given IP address. It's an educational example of how to build a network diagnostic tool that reveals the underlying structure of the Internet, one hop at a time. It demonstrates the handling of raw sockets, ICMP messages, and network time-outs, and it provides valuable insights into network behavior and routing.
+
+### How To Run The Code :
+
+- Compile the code : 
+
+```
+gcc -o traceroute traceroute.c
+```
+
+- Run the code :
+
+```
+sudo ./traceroute 8.8.8.8
+```
