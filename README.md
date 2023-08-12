@@ -11,3 +11,17 @@ The code represents an implementation of the "ping" command using the ICMP (Inte
 5. **Response Reception:** The code waits for a response from the receiving server and prints a message with the IP address of the server that returned the response.
 
 In summary, the code performs a reachability check to a remote server by sending a ping request and receiving a response. It simulates the operation of the well-known ping command found in operating systems and allows for a quick check of accessibility to a specific host on the network.
+
+### How To Run The Code :
+
+- Compile the code : 
+
+```
+gcc -o ping_example ping_icmp_protocol.c
+```
+
+- Run the code :
+
+```
+sudo ./ping_example 8.8.8.8
+```
